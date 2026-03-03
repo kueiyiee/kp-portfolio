@@ -1,14 +1,16 @@
-# 🧑‍💻 Kuei Poch Kuei - CS Portfolio
+```markdown
+# 🛡️ Kuei Poch Kuei · Full‑Stack Dev & Security Engineer
 
-![Portfolio Preview](https://i.postimg.cc/MTzxJXw7/Profile.jpg)
-
-> Personal portfolio website showcasing my journey as a Computer Science student, Full-Stack Developer, and Creative Thinker.
-
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen?style=for-the-badge)](https://kueiyiee.tech)
-[![GitHub license](https://img.shields.io/github/license/kueiyiee/kp-portfolio?style=for-the-badge)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/demo-kueiyiee.tech-0f766e?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://kueiyiee.tech)
+[![GitHub license](https://img.shields.io/github/license/kueiyiee/kp-portfolio?style=for-the-badge&color=d4af37)](LICENSE)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+> **Engineering intelligent systems. Securing digital futures.**  
+> Personal portfolio of Kuei Poch Kuei — Computer Science student, full‑stack developer, and security engineer.
+
+![Preview](https://i.postimg.cc/MTzxJXw7/Profile.jpg)
 
 ---
 
@@ -19,8 +21,8 @@
 - **🎯 Interactive Education Timeline** – Click to expand details
 - **💼 Projects & Certifications** – Visually appealing cards with tags
 - **📬 Contact Form** – Integrated with EmailJS (messages sent to kueiyiee@gmail.com)
-- **🧠 Dynamic Typing Animation** – Roles: CS Student, Full-Stack Developer, Creative Thinker
-- **✨ Particle Background** – Subtle green animated particles
+- **🧠 Dynamic Typing Animation** – Roles: CS Student, Full‑Stack Developer, Security Engineer
+- **✨ Particle Background** – Subtle teal & gold animated network
 
 ---
 
@@ -40,11 +42,13 @@
 ## 📂 Project Structure
 
 ```
+
 kp-portfolio/
 │
-├── kp portfolio.html      # Main portfolio file (single HTML)
-├── README.md              # This file
-└── LICENSE                # MIT License (optional)
+├── index.html               # Main portfolio file (single HTML)
+├── README.md                # This file
+└── LICENSE                  # MIT License (optional)
+
 ```
 
 > **Note:** This is a single‑file portfolio – no additional folders needed!
