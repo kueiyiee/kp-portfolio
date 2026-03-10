@@ -3,12 +3,114 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kuei Poch Kuei · Full-Stack dev & Security Engineer</title>
+  
+  <!-- ========== SEO META TAGS ========== -->
+  <title>Kuei Poch Kuei · Senior CS Student @ Dilla University | Full-Stack Developer & Security Engineer</title>
+  <meta name="description" content="Kuei Poch Kuei – Senior Computer Science student at DILLA UNIVERSITY. Full-Stack Developer & Creative Thinker specializing in cybersecurity, ethical hacking, and AI-driven secure systems. View portfolio, projects, certifications, and contact info.">
+  <meta name="keywords" content="Kuei Poch Kuei, Dilla University, Senior Computer Science Student, Full-Stack Developer, Cybersecurity Engineer, Ethical Hacker, CompTIA Security+, CEHv12, Python Developer, Java, JavaScript, Ethiopia, South Sudan">
+  <meta name="author" content="Kuei Poch Kuei">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.kueiyiee.tech">
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="Kuei Poch Kuei · Senior CS Student @ Dilla University">
+  <meta property="og:description" content="Full-Stack Developer & Creative Thinker specializing in cybersecurity and secure systems.">
+  <meta property="og:image" content="https://i.postimg.cc/MTzxJXw7/Profile.jpg">
+  <meta property="og:url" content="https://www.kueiyiee.tech">
+  <meta property="og:type" content="website">
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kuei Poch Kuei · Senior CS Student @ Dilla University">
+  <meta name="twitter:description" content="Full-Stack Developer & Creative Thinker in cybersecurity and secure systems.">
+  <meta name="twitter:image" content="https://i.postimg.cc/MTzxJXw7/Profile.jpg">
+
+  <!-- ========== SCHEMA.ORG STRUCTURED DATA (JSON-LD) ========== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Kuei Poch Kuei",
+    "url": "https://www.kueiyiee.tech",
+    "image": "https://i.postimg.cc/MTzxJXw7/Profile.jpg",
+    "jobTitle": "Senior Computer Science Student & Full-Stack Developer",
+    "description": "Senior Computer Science student at Dilla University, Full-Stack Developer, and Cybersecurity Researcher specializing in ethical hacking, AI-driven threat intelligence, and secure systems.",
+    "email": "kuei.poch@du.edu.et",
+    "telephone": "+251937910246",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dilla",
+      "addressCountry": "Ethiopia"
+    },
+    "sameAs": [
+      "https://github.com/kueiyiee",
+      "https://linkedin.com/in/kueiyiee",
+      "https://kueiyiee.tech"
+    ],
+    "alumniOf": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Dilla University",
+        "url": "https://www.du.edu.et",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Dilla",
+          "addressCountry": "Ethiopia"
+        }
+      },
+      {
+        "@type": "School",
+        "name": "DICAC Secondary School"
+      },
+      {
+        "@type": "School",
+        "name": "Motot Primary School"
+      }
+    ],
+    "knowsAbout": [
+      "Full-Stack Development",
+      "Cybersecurity",
+      "Penetration Testing",
+      "Network Security",
+      "Ethical Hacking",
+      "Python",
+      "Java",
+      "JavaScript",
+      "Machine Learning",
+      "Threat Intelligence"
+    ],
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "CompTIA Security+",
+        "url": "https://www.comptia.org/certifications/security"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "CompTIA CySA+"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "Certified Ethical Hacker (CEHv12)"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "Google Data Analytics Professional Certificate"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "CCNA Cybersecurity Operations"
+      }
+    ]
+  }
+  </script>
+
   <!-- Google Fonts & Font Awesome -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
   <!-- EmailJS -->
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  
   <style>
     /* ===============================
        NEURAL / TEAL & GOLD THEME
@@ -99,7 +201,7 @@
       z-index: 10;
     }
 
-    /* profile image wrapper – location icon removed */
+    /* profile image wrapper */
     .profile-img-wrapper {
       position: relative;
       width: 140px;
@@ -146,7 +248,7 @@
       font-weight: 500;
     }
 
-    /* top bar inside sidebar (KP logo left, icons right) */
+    /* top bar inside sidebar */
     .sidebar-top-bar {
       display: flex;
       align-items: center;
@@ -234,17 +336,16 @@
       color: var(--primary);
     }
 
-    /* ---------- NEW BUTTON STYLES (exactly as provided) ---------- */
+    /* Button Styles */
     .wrapper{
         display:flex;
         justify-content:center;
-        margin-top:0;            /* removed extra top margin for sidebar */
+        margin-top:0;
     }
 
-    /* Smaller Horizontal Card */
     .horizontal-card{
-        width:260px;                 /* Reduced X size */
-        padding:14px 16px;           /* Reduced Y size */
+        width:260px;
+        padding:14px 16px;
         border-radius:18px;
         background:rgba(15,23,32,0.9);
         backdrop-filter:blur(12px);
@@ -256,7 +357,6 @@
         align-items:center;
     }
 
-    /* Compact Buttons */
     .cyber-btn{
         width:170px;
         padding:7px 12px;
@@ -270,10 +370,9 @@
         gap:6px;
         transition:0.25s ease;
         cursor:pointer;
-        border:none; /* for button element if used */
+        border:none;
     }
 
-    /* Resume Outline */
     .resume-btn{
         color:#22c55e;
         border:1px solid #22c55e;
@@ -286,7 +385,6 @@
         box-shadow:0 0 10px rgba(34,197,94,0.5);
     }
 
-    /* Get In Touch Solid */
     .contact-btn{
         background:#22c55e;
         color:#0b0f14;
@@ -298,14 +396,12 @@
         background:#16a34a;
         border-color:#16a34a;
     }
-    /* ------------------------------------------------------------ */
 
-    /* button container in sidebar – just holds the new card */
     .sidebar-buttons {
       margin-top: 10px;
     }
 
-    /* ----- CONTENT (right panel) – untouched ----- */
+    /* ----- CONTENT (right panel) ----- */
     .content {
       flex: 1;
       padding: 40px 50px;
@@ -331,7 +427,7 @@
       padding-bottom: 10px;
     }
 
-    /* cards (premium) */
+    /* cards */
     .card {
       background: var(--surface);
       padding: 28px;
@@ -464,7 +560,7 @@
       margin-top: 1rem;
     }
 
-    /* contact horizontal icons - smaller, professional line */
+    /* contact */
     .contact-container {
       display: grid;
       grid-template-columns: 1fr 1.2fr;
@@ -472,7 +568,7 @@
     }
     .contact-icons-horizontal {
       display: flex;
-      flex-wrap: wrap; /* wrap on very small screens */
+      flex-wrap: wrap;
       gap: 12px;
       margin-top: 15px;
       align-items: center;
@@ -481,13 +577,13 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      width: 44px;        /* smaller */
+      width: 44px;
       height: 44px;
       background: var(--surface);
       border-radius: 50%;
       border: 1px solid var(--border);
       color: var(--primary);
-      font-size: 1.4rem;  /* smaller icon */
+      font-size: 1.4rem;
       transition: 0.25s;
       box-shadow: var(--shadow-soft);
     }
@@ -497,7 +593,6 @@
       border-color: transparent;
       transform: translateY(-5px);
     }
-    /* ensure they stay in one line on most screens */
     @media (min-width: 700px) {
       .contact-icons-horizontal {
         flex-wrap: nowrap;
@@ -566,7 +661,6 @@
       .content { max-width: 100%; padding: 30px; }
       .contact-container { grid-template-columns: 1fr; }
     }
-    /* extra small screens */
     @media (max-width: 480px) {
       .sidebar { padding: 30px 15px; }
       .kp-logo { width: 38px; height: 38px; font-size: 1.2rem; }
@@ -579,7 +673,7 @@
 <body>
   <canvas id="neuralCanvas"></canvas>
 
-  <!-- SIDEBAR (glass, with profile and top bar) – buttons replaced with new design -->
+  <!-- SIDEBAR -->
   <aside class="sidebar">
     <!-- top bar with KP logo on left and icons on right -->
     <div class="sidebar-top-bar">
@@ -605,24 +699,23 @@
     </div>
 
     <div class="profile-img-wrapper">
-      <img src="https://i.postimg.cc/MTzxJXw7/Profile.jpg" alt="Kuei Poch Kuei" class="profile-img">
-      <!-- location icon removed -->
+      <img src="https://i.postimg.cc/MTzxJXw7/Profile.jpg" alt="Kuei Poch Kuei - Senior Computer Science Student at Dilla University" class="profile-img">
     </div>
 
-    <!-- UPDATED HEADER: greeting + name + title -->
+    <!-- HEADER: name + title -->
     <div class="greeting">Hello! I'm</div>
     <h1>KUEI POCH KUEI</h1>
-    <div class="title">Full-Stack Developer & Creative Thinker</div>
+    <div class="title">Senior CS Student @ Dilla University · Full-Stack Developer & Creative Thinker</div>
 
-    <!-- button group: exactly the provided design, with correct links -->
+    <!-- button group -->
     <div class="sidebar-buttons">
       <div class="wrapper">
         <div class="horizontal-card">
-          <!-- View Resume – external link -->
+          <!-- View Resume -->
           <a href="https://drive.google.com/file/d/1EzgrAQQHwqzRg5IU2aVvGfxJATCGcDu8/view?usp=drivesdk" target="_blank" class="cyber-btn resume-btn">
             <i class="fas fa-file-alt"></i> View Resume
           </a>
-          <!-- Get In Touch – scroll to contact (smooth) -->
+          <!-- Get In Touch -->
           <a href="javascript:void(0)" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})" class="cyber-btn contact-btn">
             <i class="fas fa-paper-plane"></i> Get In Touch
           </a>
@@ -631,16 +724,16 @@
     </div>
   </aside>
 
-  <!-- MAIN CONTENT (all sections) – exactly the same as before -->
+  <!-- MAIN CONTENT -->
   <main class="content" id="content">
     <div id="fullPortfolioContent"></div>
 
-    <!-- FOOTER with slogan and brain symbol -->
+    <!-- FOOTER -->
     <footer class="footer">
       <div class="footer-slogan">
         <span>🧠</span> Engineering intelligent systems. Securing digital futures. <span>🧠</span>
       </div>
-      <p>© <span id="currentYear"></span> Kuei Poch Kuei · Dilla University</p>
+      <p>© <span id="currentYear"></span> Kuei Poch Kuei · Senior Computer Science Student at Dilla University</p>
     </footer>
   </main>
 
@@ -738,7 +831,7 @@
 
       // ---------- PORTFOLIO DATA ----------
       const portfolioData = {
-        about: "I am a passionate cybersecurity researcher and full‑stack developer, dedicated to building secure, resilient, and innovative systems. My work integrates ethical hacking, software engineering, and data‑driven threat intelligence. A creative thinker and problem solver, I constantly explore the intersection of machine learning and network security to develop forward‑looking solutions.",
+        about: "I am a passionate cybersecurity researcher and full‑stack developer, dedicated to building secure, resilient, and innovative systems. As a Senior Computer Science student at Dilla University, my work integrates ethical hacking, software engineering, and data‑driven threat intelligence. A creative thinker and problem solver, I constantly explore the intersection of machine learning and network security to develop forward‑looking solutions.",
         education: [
           { degree: "Bachelor of Science in Computer Science", institution: "Dilla University", yearStart: 2023, yearEnd: 2027, status: "Ongoing", gpa: "3.0/4.0", details: "Cybersecurity concentration · Coursework: algorithms, data structures, system design, network security, software engineering." },
           { degree: "Secondary School Certificate", institution: "DICAC Secondary School", yearStart: 2018, yearEnd: 2022, status: "Completed", gpa: "79.5%", details: "Science track · Emphasis on mathematics, physics, and computer science." },
@@ -904,12 +997,12 @@
           sendBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
           try {
             await emailjs.send('service_0ayxzys', 'template_c0f9c76', {
-  name: name,
-  email: email,
-  subject: subject,
-  message: message,
-  time: new Date().toLocaleString()
-});
+              name: name,
+              email: email,
+              subject: subject,
+              message: message,
+              time: new Date().toLocaleString()
+            });
             feedback.innerText = '✓ Message sent!'; feedback.style.color = '#27ae60';
             form.reset();
           } catch (error) {
